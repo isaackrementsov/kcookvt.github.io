@@ -1,13 +1,21 @@
 body {
 	background-color: whitesmoke;
-	background-size: cover;
-	background-repeat: no-repeat;
+	opacity: 1;
+	transition: 1.25s opacity;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
 }
 
 a {
 	outline: none;
 	text-decoration: none;
 	color: #303030;
+	transition: color 0.5s linear;
+   	-webkit-transition: color 0.5s linear;
+   	-moz-transition: color 0.5s linear;
 }
 
 .secheader {
@@ -31,34 +39,25 @@ a {
 
 .headimg {
 	position: absolute;
-	top: 5vh;
+	top: 5.5vh;
 	left: 3vw;
 	display: block;
 	max-width: 100%;
 	max-height: 100%;
 }
 
-.email {
-	position: absolute;
-	right: 5vw;
-	top: 5.75vh;
-	font-size: 1.5vw;
-	font-weight: 300;
-	color: #228B22;
-	font-family: 'Nunito', sans-serif;
-	letter-spacing: 1px
-
-}
 
 .nav ul {
 	position: absolute;
 	display: inline-block;
+	box-sizing: content-box;
 	list-style: none;
 	background-color: whitesmoke;
 	z-index: -1;
+	top: 9vh;
 	font-family: 'Nunito', sans-serif;
 	float: right;
-	right: 25vw;
+	right: 0.5vw;
 	text-align: center;
 	overflow: auto;
 	padding: 0;
@@ -67,14 +66,23 @@ a {
 
 .nav li {
 	padding-right: 4vw;
-	padding-top: 7.5vh;
 	float: left;
 	font-size: 1.5vw;
 
 }
 
-.nav a:hover {
+.nav li a:hover {
 	color: #228B22;
+}
+
+.nav li h3 {
+	position: relative;
+	top: -2vh;
+	font-size: 1.5vw;
+	font-weight: 300;
+	color: #228B22;
+	font-family: 'Nunito', sans-serif;
+	letter-spacing: 1px
 }
 
 .landtxt {
@@ -82,7 +90,8 @@ a {
 	color: grey;
 	font-family: 'Nunito', sans-serif;
 	font-weight: 100;
-	top: 35vh;
+	top: 37vh;
 	left: 5vw;
 	text-align: left; 
 }
+
