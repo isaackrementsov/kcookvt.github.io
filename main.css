@@ -1,0 +1,88 @@
+body {
+	background-color: whitesmoke;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+a {
+	outline: none;
+	text-decoration: none;
+	color: #303030;
+}
+
+.secheader {
+	position: absolute;
+	top: 4.3vh;
+	color: grey;
+}
+
+.headtxt {
+	white-space: nowrap;
+	color: #303030;
+	font-family: 'Nunito', sans-serif;
+	position: absolute;
+	top: 1.75vh;
+	float: left;
+	font-weight: 100;
+	left: 7vw;
+	font-size: 1.5vw;
+	letter-spacing: 1px;
+}
+
+.headimg {
+	position: absolute;
+	top: 5vh;
+	left: 3vw;
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.email {
+	position: absolute;
+	right: 5vw;
+	top: 5.75vh;
+	font-size: 1.5vw;
+	font-weight: 300;
+	color: #228B22;
+	font-family: 'Nunito', sans-serif;
+	letter-spacing: 1px
+
+}
+
+.nav ul {
+	position: absolute;
+	display: inline-block;
+	list-style: none;
+	background-color: whitesmoke;
+	z-index: -1;
+	font-family: 'Nunito', sans-serif;
+	float: right;
+	right: 25vw;
+	text-align: center;
+	overflow: auto;
+	padding: 0;
+	margin: 0;
+}
+
+.nav li {
+	padding-right: 4vw;
+	padding-top: 7.5vh;
+	float: left;
+	font-size: 1.5vw;
+
+}
+
+.nav a:hover {
+	color: #228B22;
+}
+
+.landtxt {
+	position: absolute;
+	color: grey;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 100;
+	top: 35vh;
+	left: 5vw;
+	text-align: left; 
+}
