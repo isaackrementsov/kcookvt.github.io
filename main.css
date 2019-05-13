@@ -9,6 +9,10 @@ body.fade-out {
     transition: none;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 a {
 	outline: none;
 	text-decoration: none;
@@ -16,6 +20,21 @@ a {
 	transition: color 0.5s linear;
    	-webkit-transition: color 0.5s linear;
    	-moz-transition: color 0.5s linear;
+}
+
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 20px;
+}
+
+.down {
+	transform: rotate(45deg);
+  	-webkit-transform: rotate(45deg);
+  	position: absolute;
+  	left: 49%;
+  	top: 80vh;
 }
 
 .secheader {
@@ -50,13 +69,9 @@ a {
 .nav ul {
 	position: absolute;
 	display: inline-block;
-	box-sizing: content-box;
 	list-style: none;
-	background-color: whitesmoke;
-	z-index: -1;
 	top: 9vh;
 	font-family: 'Nunito', sans-serif;
-	float: right;
 	right: 0.5vw;
 	text-align: center;
 	overflow: auto;
@@ -76,8 +91,9 @@ a {
 }
 
 .nav li h3 {
+	margin: 0;
 	position: relative;
-	top: -2vh;
+	top: 0vh;
 	font-size: 1.5vw;
 	font-weight: 300;
 	color: #228B22;
@@ -94,4 +110,26 @@ a {
 	left: 5vw;
 	text-align: left; 
 }
+
+#home {
+	height: 1000px;
+}
+
+#about {
+	height: 1000px;
+}
+
+.abouttitle {
+	position: absolute;
+	color: #303030;
+	font-family: 'Nunito', sans-serif;
+	letter-spacing: 1px;
+	display: flex;
+	left: 45.5%;
+	margin: 0;
+	top: 157vh;
+	font-size: 4vh;
+}
+
+
 
