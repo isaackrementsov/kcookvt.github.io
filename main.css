@@ -1,24 +1,24 @@
 body {
-	background-color: whitesmoke;
-	opacity: 1;
-	transition: 1.25s opacity;
+	background-color: whitesmoke;
+	opacity: 1;
+	transition: 1.25s opacity;
 }
 
 body.fade-out {
-    opacity: 0;
-    transition: none;
+    opacity: 0;
+    transition: none;
 }
 
 html {
-	scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 a {
-	outline: none;
-	text-decoration: none;
-	color: #303030;
-	transition: color 0.5s linear;
-   	-webkit-transition: color 0.5s linear;
+	outline: none;
+	text-decoration: none;
+	color: #303030;
+	transition: color 0.5s linear;
+   	-webkit-transition: color 0.5s linear;
    	-moz-transition: color 0.5s linear;
 }
 
